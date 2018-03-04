@@ -14,9 +14,9 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
 	var mySrc = myImage.getAttribute('src');
-	if(mySrc === 'images/StudentskiDirLogo.jpg') {
+	if(mySrc === 'images/studentskiDirLogo.jpg') {
 		myImage.setAttribute ('src', 'images/FokusLogo.jpg')
 	} else {
-		myImage.setAttribute ('src', 'images/StudentskiDirLogo.jpg')
+		myImage.setAttribute ('src', 'images/studentskiDirLogo.jpg')
 	}
 }
